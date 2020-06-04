@@ -2,403 +2,319 @@
 {% load static%}
 {% block content%}
 <!-- slider_area_start -->
-<div class="slider_area">
-    <div class="single_slider single_slider2  d-flex align-items-center property_bg overlay2">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xl-10 offset-xl-1">
-                        <div class="property_wrap">
-                                <div class="slider_text text-center justify-content-center">
-                                        <h3>Search property</h3>
-                                    </div>
-                                    <div class="property_form">
-                                        <form action="#">
-                                            <div class="row">
-                                                <div class="col-xl-12">
-                                                    <div class="form_wrap d-flex">
-                                                            <div class="single-field max_width">
-                                                                    <label for="#">Location</label>
-                                                                    <select class="wide" >
-                                                                            <option data-display="Select county/city">Ireland</option>
-                                                                            <option value="1">Co.Antrim</option>
-                                                                            <option value="2">Co.Armagh</option>
-                                                                            <option value="3">Co.Carlow</option>
-                                                                            <option value="4">Co.Cavan</option>
-                                                                            <option value="5">Co.Clare</option>
-                                                                            <option value="6">Co.Cork</option>
-                                                                            <option value="7">Co.Derry</option>
-                                                                            <option value="8">Co.Donegal</option>
-                                                                            <option value="9">Co.Down</option>
-                                                                            <option value="10">Co.Dublin</option>
-                                                                            <option value="11">Co.Fermanagh</option>
-                                                                            <option value="12">Co.Galway</option>
-                                                                            <option value="13">Co.Kerry</option>
-                                                                            <option value="14">Co.Kildare</option>
-                                                                            <option value="15">Co.Kilkenny</option>
-                                                                            <option value="16">Co.Laois</option>
-                                                                            <option value="17">Co.Leitrim</option>
-                                                                            <option value="18">Co.Limerick</option>
-                                                                            <option value="19">Co.Longford</option>
-                                                                            <option value="20">Co.Louth</option>
-                                                                            <option value="21">Co.Mayo</option>
-                                                                            <option value="22">Co.Meath</option>
-                                                                            <option value="23">Co.Monaghan</option>
-                                                                            <option value="24">Co.Offaly</option>
-                                                                            <option value="25">Co.Roscommon</option>
-                                                                            <option value="26">Co.Sligo</option>
-                                                                            <option value="27">Co.Tipperary</option>
-                                                                            <option value="28">Co.Tyrone</option>
-                                                                            <option value="29">Co.Waterford</option>
-                                                                            <option value="30">Co.Westmeath</option>
-                                                                            <option value="31">Co.Wexford</option>
-                                                                            <option value="32">Co.Wicklow</option>
-    
-                                                                    </select>
-                                                                </div>
-                                                            <div class="single-field max_width ">
-                                                                    <label for="#">Property type</label>
-                                                                    <select class="wide" >
-                                                                            <option data-display="Apartment">Apartment</option>
-                                                                            <option value="1">Apartment</option>
-                                                                            <option value="2">House</option>
-                                                                    </select>
-                                                                </div>
-                                                                <div class="single_field range_slider">
-                                                                        <label for="#">Price (€)</label>
-                                                                    <div id="slider"></div>
-                                                                </div>
-                                                            <div class="single-field min_width ">
-                                                                    <label for="#">Bed Room</label>
-                                                                    <select class="wide" >
-                                                                            <option data-display="01">01</option>
-                                                                            <option value="1">02</option>
-                                                                            <option value="2">03</option>
-                                                                            <option value="3">04</option>
-                                                                            <option value="4">05</option>
-                                                                            <option value="5">06</option>
-                                                                            <option value="6">07</option>
-                                                                            <option value="7">08</option>
-                                                                    </select>
-                                                                </div>
-                                                            <div class="single-field min_width ">
-                                                                    <label for="#">Bath Room</label>
-                                                                    <select class="wide" >
-                                                                            <option data-display="01">01</option>
-                                                                            <option value="1">02</option>
-                                                                            <option value="2">03</option>
-                                                                            <option value="3">04</option>
-                                                                            <option value="4">05</option>
-                                                                            <option value="5">06</option>
-                                                                            <option value="6">07</option>
-                                                                            <option value="7">08</option>
-                                                                    </select>
-                                                                </div>
-                                                                <div class="serach_icon">
-                                                                        <a href="#">
-                                                                                <i class="ti-search"></i>
-                                                                        </a>
-                                                                    </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<section id="showcase-inner" class="py-5 text-white">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <h1 class="display-4">Browse Our Properties</h1>
+          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, pariatur!</p>
         </div>
-<!-- slider_area_end -->
-<div class="popular_property plus_padding">
-<div class="container">
-    <div class="row">
-        <div class="col-xl-12">
-            <div class="section_title mb-40 text-center">
-                <h4>240 Properties found</h4>
-            </div>
-        </div>
+      </div>
     </div>
-    <div class="row">
-        <div class="col-xl-4 col-md-6 col-lg-4">
-            <div class="single_property">
-                <div class="property_thumb">
-                    <div class="property_tag">
-                            For Sale
-                    </div>
-                    <img src="{% static 'img/property/1.png'%}" alt="">
-                </div>
-                <div class="property_content">
-                    <div class="main_pro">
-                            <h3><a href="#">Comfortable Apartment in Palace</a></h3>
-                            <div class="mark_pro">
-                                <img src="{% static 'img/svg_icon/location.svg'%}" alt="">
-                                <span>Popular Properties</span>
-                            </div>
-                            <span class="amount">From €20k</span>
-                    </div>
-                </div>
-                <div class="footer_pro">
-                        <ul>
-                            <li>
-                                <div class="single_info_doc">
-                                    <img src="{% static 'img/svg_icon/square.svg'%}" alt="">
-                                    <span>1200 Sqft</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="single_info_doc">
-                                    <img src="{% static 'img/svg_icon/bed.svg'%}" alt="">
-                                    <span>2 Bed</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="single_info_doc">
-                                    <img src="{% static 'img/svg_icon/bath.svg'%}" alt="">
-                                    <span>2 Bath</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-            </div>
-        </div>
-        <div class="col-xl-4 col-md-6 col-lg-4">
-            <div class="single_property">
-                <div class="property_thumb">
-                    <div class="property_tag red">
-                            For Rent
-                    </div>
-                    <img src="{% static 'img/property/2.png'%}" alt="">
-                </div>
-                <div class="property_content">
-                    <div class="main_pro">
-                            <h3><a href="#">Comfortable Apartment in Palace</a></h3>
-                            <div class="mark_pro">
-                                <img src="{% static 'img/svg_icon/location.svg'%}" alt="">
-                                <span>Popular Properties</span>
-                            </div>
-                            <span class="amount">€563/month</span>
-                    </div>
-                </div>
-                <div class="footer_pro">
-                        <ul>
-                            <li>
-                                <div class="single_info_doc">
-                                    <img src="{% static 'img/svg_icon/square.svg'%}" alt="">
-                                    <span>1200 Sqft</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="single_info_doc">
-                                    <img src="{% static 'img/svg_icon/bed.svg'%}" alt="">
-                                    <span>2 Bed</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="single_info_doc">
-                                    <img src="{% static 'img/svg_icon/bath.svg'%}" alt="">
-                                    <span>2 Bath</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-            </div>
-        </div>
-        <div class="col-xl-4 col-md-6 col-lg-4">
-            <div class="single_property">
-                <div class="property_thumb">
-                    <div class="property_tag">
-                            For Sale
-                    </div>
-                    <img src="{% static 'img/property/3.png'%}" alt="">
-                </div>
-                <div class="property_content">
-                    <div class="main_pro">
-                            <h3><a href="#">Comfortable Apartment in Palace</a></h3>
-                            <div class="mark_pro">
-                                <img src="{% static 'img/svg_icon/location.svg'%}" alt="">
-                                <span>Popular Properties</span>
-                            </div>
-                            <span class="amount">From €20k</span>
-                    </div>
-                </div>
-                <div class="footer_pro">
-                        <ul>
-                            <li>
-                                <div class="single_info_doc">
-                                    <img src="{% static 'img/svg_icon/square.svg'%}" alt="">
-                                    <span>1200 Sqft</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="single_info_doc">
-                                    <img src="{% static 'img/svg_icon/bed.svg'%}" alt="">
-                                    <span>2 Bed</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="single_info_doc">
-                                    <img src="{% static 'img/svg_icon/bath.svg'%}" alt="">
-                                    <span>2 Bath</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-            </div>
-        </div>
-        <div class="col-xl-4 col-md-6 col-lg-4">
-            <div class="single_property">
-                <div class="property_thumb">
-                    <div class="property_tag red">
-                            For Rent
-                    </div>
-                    <img src="{% static 'img/property/4.png'%}" alt="">
-                </div>
-                <div class="property_content">
-                    <div class="main_pro">
-                            <h3><a href="#">Comfortable Apartment in Palace</a></h3>
-                            <div class="mark_pro">
-                                <img src="{% static 'img/svg_icon/location.svg'%}" alt="">
-                                <span>Popular Properties</span>
-                            </div>
-                            <span class="amount">€563/month</span>
-                    </div>
-                </div>
-                <div class="footer_pro">
-                        <ul>
-                            <li>
-                                <div class="single_info_doc">
-                                    <img src="{% static 'img/svg_icon/square.svg'%}" alt="">
-                                    <span>1200 Sqft</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="single_info_doc">
-                                    <img src="{% static 'img/svg_icon/bed.svg'%}" alt="">
-                                    <span>2 Bed</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="single_info_doc">
-                                    <img src="{% static 'img/svg_icon/bath.svg'%}" alt="">
-                                    <span>2 Bath</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-            </div>
-        </div>
-        <div class="col-xl-4 col-md-6 col-lg-4">
-            <div class="single_property">
-                <div class="property_thumb">
-                    <div class="property_tag">
-                            For Sale
-                    </div>
-                    <img src="{% static 'img/property/5.png'%}" alt="">
-                </div>
-                <div class="property_content">
-                    <div class="main_pro">
-                            <h3><a href="#">Comfortable Apartment in Palace</a></h3>
-                            <div class="mark_pro">
-                                <img src="{% static 'img/svg_icon/location.svg'%}" alt="">
-                                <span>Popular Properties</span>
-                            </div>
-                            <span class="amount">From €20k</span>
-                    </div>
-                </div>
-                <div class="footer_pro">
-                        <ul>
-                            <li>
-                                <div class="single_info_doc">
-                                    <img src="{% static 'img/svg_icon/square.svg'%}" alt="">
-                                    <span>1200 Sqft</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="single_info_doc">
-                                    <img src="{% static 'img/svg_icon/bed.svg'%}" alt="">
-                                    <span>2 Bed</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="single_info_doc">
-                                    <img src="{% static 'img/svg_icon/bath.svg'%}" alt="">
-                                    <span>2 Bath</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-            </div>
-        </div>
-        <div class="col-xl-4 col-md-6 col-lg-4">
-            <div class="single_property">
-                <div class="property_thumb">
-                    <div class="property_tag">
-                            For Sale
-                    </div>
-                    <img src="{% static 'img/property/6.png'%}" alt="">
-                </div>
-                <div class="property_content">
-                    <div class="main_pro">
-                            <h3><a href="#">Comfortable Apartment in Palace</a></h3>
-                            <div class="mark_pro">
-                                <img src="{% static 'img/svg_icon/location.svg'%}" alt="">
-                                <span>Popular Properties</span>
-                            </div>
-                            <span class="amount">From €20k</span>
-                    </div>
-                </div>
-                <div class="footer_pro">
-                        <ul>
-                            <li>
-                                <div class="single_info_doc">
-                                    <img src="{% static 'img/svg_icon/square.svg'%}" alt="">
-                                    <span>1200 Sqft</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="single_info_doc">
-                                    <img src="{% static 'img/svg_icon/bed.svg'%}" alt="">
-                                    <span>2 Bed</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="single_info_doc">
-                                    <img src="{% static 'img/svg_icon/bath.svg'%}" alt="">
-                                    <span>2 Bath</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xl-12">
-            <div class="more_property_btn text-center">
-                <a href="#" class="boxed-btn3-line">More Properties</a>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
+  </section>
 
-<!-- contact_action_area  -->
-<div class="contact_action_area">
-<div class="container">
-    <div class="row">
-        <div class="col-xl-7">
-            <div class="action_heading">
-                <h3>Add your property for sale</h3>
-            </div>
-        </div>
-        <div class="col-xl-5">
-            <div class="call_add_action">
-                <span>+10 637 367 4567</span>
-                <a href="#" class="boxed-btn3-line">Load More</a>
-            </div>
-        </div>
+  <!-- Breadcrumb -->
+  <section id="bc" class="mt-3">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="{% url 'index' %}">
+              <i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="breadcrumb-item active"> Browse Listings</li>
+        </ol>
+      </nav>
     </div>
-</div>
-</div>
+  </section>
+
+  <!-- Listings -->
+  <section id="listings" class="py-4">
+    <div class="container">
+      <div class="row">
+
+        <!-- Listing 1 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card listing-preview">
+            <img class="card-img-top" src="assets/img/homes/home-1.jpg" alt="">
+            <div class="card-img-overlay">
+              <h2>
+                <span class="badge badge-secondary text-white">$490,000</span>
+              </h2>
+            </div>
+            <div class="card-body">
+              <div class="listing-heading text-center">
+                <h4 class="text-primary">45 Drivewood Circle</h4>
+                <p>
+                  <i class="fas fa-map-marker text-secondary"></i> Norwood MA, 02062</p>
+              </div>
+              <hr>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                  <i class="fas fa-th-large"></i> Sqft: 3200</div>
+                <div class="col-6">
+                  <i class="fas fa-car"></i> Garage: 2</div>
+              </div>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                  <i class="fas fa-bed"></i> Bedrooms: 3</div>
+                <div class="col-6">
+                  <i class="fas fa-bath"></i> Bathrooms: 2</div>
+              </div>
+              <hr>
+              <div class="row py-2 text-secondary">
+                <div class="col-12">
+                  <i class="fas fa-user"></i> Kyle Brown</div>
+              </div>
+              <div class="row text-secondary pb-2">
+                <div class="col-6">
+                  <i class="fas fa-clock"></i> 2 days ago</div>
+              </div>
+              <hr>
+              <a href="{% url 'listing' %}" class="btn btn-primary btn-block">More Info</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Listing 2 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card listing-preview">
+            <img class="card-img-top" src="assets/img/homes/home-2.jpg" alt="">
+            <div class="card-img-overlay">
+              <h2>
+                <span class="badge badge-secondary text-white">$550,000</span>
+              </h2>
+            </div>
+            <div class="card-body">
+              <div class="listing-heading text-center">
+                <h4 class="text-primary">18 Jefferson Lane</h4>
+                <p>
+                  <i class="fas fa-map-marker text-secondary"></i> Woburn MA, 01801</p>
+              </div>
+              <hr>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                  <i class="fas fa-th-large"></i> Sqft: 3200</div>
+                <div class="col-6">
+                  <i class="fas fa-car"></i> Garage: 1</div>
+              </div>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                  <i class="fas fa-bed"></i> Bedrooms: 4</div>
+                <div class="col-6">
+                  <i class="fas fa-bath"></i> Bathrooms: 2.5</div>
+              </div>
+              <hr>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                  <i class="fas fa-user"></i> Mark Hudson</div>
+              </div>
+              <div class="row text-secondary pb-2">
+                <div class="col-6">
+                  <i class="fas fa-clock"></i> 5 days ago</div>
+              </div>
+              <hr>
+              <a href="{% url 'listing' %}" class="btn btn-primary btn-block">More Info</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Listing 3 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card listing-preview">
+            <img class="card-img-top" src="assets/img/homes/home-3.jpg" alt="">
+            <div class="card-img-overlay">
+              <h2>
+                <span class="badge badge-secondary text-white">$580,000</span>
+              </h2>
+            </div>
+            <div class="card-body">
+              <div class="listing-heading text-center">
+                <h4 class="text-primary">187 Woodrow Street</h4>
+                <p>
+                  <i class="fas fa-map-marker text-secondary"></i> Salem MA, 01915</p>
+              </div>
+              <hr>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                  <i class="fas fa-th-large"></i> Sqft: 3107</div>
+                <div class="col-6">
+                  <i class="fas fa-car"></i> Garage: 0</div>
+              </div>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                  <i class="fas fa-bed"></i> Bedrooms: 4</div>
+                <div class="col-6">
+                  <i class="fas fa-bath"></i> Bathrooms: 3</div>
+              </div>
+              <hr>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                  <i class="fas fa-user"></i> Mark Hudson</div>
+              </div>
+              <div class="row text-secondary pb-2">
+                <div class="col-6">
+                  <i class="fas fa-clock"></i> 5 days ago</div>
+              </div>
+              <hr>
+              <a href="{% url 'listing' %}" class="btn btn-primary btn-block">More Info</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Listing 4 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card listing-preview">
+            <img class="card-img-top" src="assets/img/homes/home-4.jpg" alt="">
+            <div class="card-img-overlay">
+              <h2>
+                <span class="badge badge-secondary text-white">$380,000</span>
+              </h2>
+            </div>
+            <div class="card-body">
+              <div class="listing-heading text-center">
+                <h4 class="text-primary">28 Gifford Street</h4>
+                <p>
+                  <i class="fas fa-map-marker text-secondary"></i> Bedford NH, 03103</p>
+              </div>
+              <hr>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                  <i class="fas fa-th-large"></i> Sqft: 2927</div>
+                <div class="col-6">
+                  <i class="fas fa-car"></i> Garage: 2</div>
+              </div>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                  <i class="fas fa-bed"></i> Bedrooms: 4</div>
+                <div class="col-6">
+                  <i class="fas fa-bath"></i> Bathrooms: 2</div>
+              </div>
+              <hr>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                  <i class="fas fa-user"></i> Jenny Johnson</div>
+              </div>
+              <div class="row text-secondary pb-2">
+                <div class="col-6">
+                  <i class="fas fa-clock"></i> 5 days ago</div>
+              </div>
+              <hr>
+              <a href="{% url 'listing' %}" class="btn btn-primary btn-block">More Info</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Listing 5 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card listing-preview">
+            <img class="card-img-top" src="assets/img/homes/home-5.jpg" alt="">
+            <div class="card-img-overlay">
+              <h2>
+                <span class="badge badge-secondary text-white">$230,000</span>
+              </h2>
+            </div>
+            <div class="card-body">
+              <div class="listing-heading text-center">
+                <h4 class="text-primary">12 United Road</h4>
+                <p>
+                  <i class="fas fa-map-marker text-secondary"></i> South Hampton NH, 03827</p>
+              </div>
+              <hr>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                  <i class="fas fa-th-large"></i> Sqft: 2207</div>
+                <div class="col-6">
+                  <i class="fas fa-car"></i> Garage: 1</div>
+              </div>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                  <i class="fas fa-bed"></i> Bedrooms: 3</div>
+                <div class="col-6">
+                  <i class="fas fa-bath"></i> Bathrooms: 1.5</div>
+              </div>
+              <hr>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                  <i class="fas fa-user"></i> Kyle Brown</div>
+              </div>
+              <div class="row text-secondary pb-2">
+                <div class="col-6">
+                  <i class="fas fa-clock"></i> 5 days ago</div>
+              </div>
+              <hr>
+              <a href="{% url 'listing' %}" class="btn btn-primary btn-block">More Info</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Listing 6 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card listing-preview">
+            <img class="card-img-top" src="assets/img/homes/home-6.jpg" alt="">
+            <div class="card-img-overlay">
+              <h2>
+                <span class="badge badge-secondary text-white">$780,000</span>
+              </h2>
+            </div>
+            <div class="card-body">
+              <div class="listing-heading text-center">
+                <h4 class="text-primary">33 Essex Circle</h4>
+                <p>
+                  <i class="fas fa-map-marker text-secondary"></i> Lexington MA, 01731</p>
+              </div>
+              <hr>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                  <i class="fas fa-th-large"></i> Sqft: 4145</div>
+                <div class="col-6">
+                  <i class="fas fa-car"></i> Garage: 1</div>
+              </div>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                  <i class="fas fa-bed"></i> Bedrooms: 5</div>
+                <div class="col-6">
+                  <i class="fas fa-bath"></i> Bathrooms: 3.5</div>
+              </div>
+              <hr>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                  <i class="fas fa-user"></i> Kyle Brown</div>
+              </div>
+              <div class="row text-secondary pb-2">
+                <div class="col-6">
+                  <i class="fas fa-clock"></i> 5 days ago</div>
+              </div>
+              <hr>
+              <a href="{% url 'listing' %}" class="btn btn-primary btn-block">More Info</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="pagination">
+            <li class="page-item disabled">
+              <a class="page-link" href="#">&laquo;</a>
+            </li>
+            <li class="page-item active">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">&raquo;</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 <!-- /contact_action_area  -->
 {%endblock%}
