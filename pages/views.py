@@ -1,8 +1,24 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from listings.choices import price_choices, bedroom_choices, state_choices
+
+from listings.models import Listing
+
 
 def index(request):
-    return render(request, 'pages/index.html')
+    listings = Listing.objects.order_by('-list_date').filter(is_published=True)[:3]
+
+    context = {
+        'listings': listings,
+        'state_choices': state_choices,
+        'price_choices': price_choices,
+        'bedroom_choices': bedroom_choices,       
+        
+       
+
+
+    }
+    return render(request, 'pages/index.html', context)
 
 def about(request):
     return render(request, 'pages/about.html')
@@ -10,8 +26,8 @@ def about(request):
 def blog(request):
     return render(request, 'pages/blog.html')
 
-def contact(request):
-    return render(request, 'pages/contact.html')
+def register(request):
+    return render(request, 'pages/register.html')
 
 def elements(request):
     return render(request, 'pages/elements.html')
