@@ -1,0 +1,7 @@
+export ENGINE="django.db.backends.postgresql"
+export NAME="homeireland"
+export USER="postgres"
+export PASSWORD="emmadara"
+export HOST="localhost"
+export SECRET_KEY="3362f7ea8df189b69a0f74d89fa363d433618c980f3fa442"
+export DEBUG_VALUE="TRUE"
