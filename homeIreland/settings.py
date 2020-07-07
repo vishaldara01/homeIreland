@@ -21,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY='3362f7ea8df189b69a0f74d89fa363d433618c980f3fa442'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -83,11 +83,11 @@ WSGI_APPLICATION = 'homeIreland.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': os.environ.get('ENGINE'),
-        'NAME':   os.environ.get('NAME'),
-        'USER':   os.environ.get('USER'),
-        'PASSWORD':os.environ.get('PASSWORD'),
-        'HOST':     os.environ.get('HOST')
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME':   'homeireland',
+        'USER':   'postgres',
+        'PASSWORD':'emmadara',
+        'HOST':     'localhost'
     }
 }
 
@@ -153,8 +153,8 @@ MESSAGE_TAGS = {
 # EMAIL_USE_TLS=True
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
-EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER ')
+EMAIL_HOST_PASSWORD = 'Saikirpa01'
+EMAIL_HOST_USER = 'homeireland01@gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
