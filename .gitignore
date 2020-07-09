@@ -11,6 +11,7 @@ db.sqlite3-journal
 venv
 /static
 /index5.html
+settings.py
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
