@@ -11,7 +11,8 @@ db.sqlite3-journal
 venv
 /static
 /index5.html
-settings.py
+Pipfile
+Pipfile.lock
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
