@@ -31,7 +31,7 @@ def listing(request, listing_id):
 
 
 def search(request):
-    queryset_list = Listing.objects.order_by('-list_date')
+    queryset_list = Listing.objects.order_by('list_date')
 
    #Keywords
     if 'keywords' in request.GET:
