@@ -23,7 +23,6 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY='3362f7ea8df189b69a0f74d89fa363d433618c980f3fa442'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -87,7 +86,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME':   'homeireland',
-        'USER':   os.environ['DB_USER'],
+        'DB_USER':   os.environ['DB_USER'],
         'PASSWORD':os.environ['PASSWORD'],
         'HOST':     'localhost',
         'PORT': '5432',
@@ -151,8 +150,8 @@ MESSAGE_TAGS = {
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_PASSWORD = os.environ['EMAIL_HOST_USER']
-EMAIL_HOST_USER = os.environ['EMAIL_HOST_PASSWORD']
+EMAIL_HOST_PASSWORD = os.environ['EMAIL_HOST_PASSWORD']
+EMAIL_HOST_USER = os.environ['EMAIL_HOST_USER']
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
