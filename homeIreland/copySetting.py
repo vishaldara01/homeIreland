@@ -14,7 +14,7 @@ import django_heroku
 from dotenv import load_dotenv
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 load_dotenv(os.path.join(BASE_DIR, '.env'))
-SECRET_KEY='3362f7ea8df189b69a0f74d89fa363d433618c980f3fa442'
+SECRET_KEY = os.environ['SECRET_KEY']
 # # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 # BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -86,8 +86,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME':   'homeireland',
-        'DB_USER': 'postgres',
-        'PASSWORD': 'emmadara',
+        'DB_USER': os.environ['DB_USER'],
+        'PASSWORD': os.environ['PASSWORD'],
         'HOST':     'localhost',
         'PORT': '5432',
     }
@@ -150,8 +150,8 @@ MESSAGE_TAGS = {
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_PASSWORD = 'Saikirpa01'
-EMAIL_HOST_USER = 'homeireland01@gmail.com'
+EMAIL_HOST_PASSWORD = os.environ['EMAIL_HOST_PASSWORD']
+EMAIL_HOST_USER = os.environ['EMAIL_HOST_USER']
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
