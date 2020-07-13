@@ -18,7 +18,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 .env
-.copySetting.py
+copySetting.py
 # C extensions
 *.so
 
