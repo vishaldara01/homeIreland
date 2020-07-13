@@ -13,6 +13,7 @@ venv
 /index5.html
 Pipfile
 Pipfile.lock
+.env
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
