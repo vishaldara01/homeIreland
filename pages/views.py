@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from listings.choices import price_choices, bedroom_choices, state_choices
 
 from listings.models import Listing
+from realtors.models import Realtor
 
 
 def index(request):
@@ -12,11 +13,7 @@ def index(request):
         'listings': listings,
         'state_choices': state_choices,
         'price_choices': price_choices,
-        'bedroom_choices': bedroom_choices,       
-        
-       
-
-
+        'bedroom_choices': bedroom_choices,   
     }
     return render(request, 'pages/index.html', context)
 
