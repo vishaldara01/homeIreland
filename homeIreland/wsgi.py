@@ -7,11 +7,11 @@ https://docs.djangoproject.com/en/3.0/howto/deployment/wsgi/
 """
 
 import os
-import environ
+# import environ
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-print(BASE_DIR)
-environ.Env.read_env(env_file=os.path.join(BASE_DIR, '.env'))
+# BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# print(BASE_DIR)
+# environ.Env.read_env(env_file=os.path.join(BASE_DIR, '.env'))
 
 
 from django.core.wsgi import get_wsgi_application
