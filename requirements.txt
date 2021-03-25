@@ -133,7 +133,7 @@ pylint-plugin-utils==0.6
 pyquil==2.19.0
 python-rapidjson==0.9.1
 pytz==2020.1
-PyYAML==5.3.1
+PyYAML==5.4
 pyzmq==19.0.1
 requests==2.23.0
 rpcq==3.3.0
